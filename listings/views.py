@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from listings.models import Band
 from listings.forms import ContactUsForm, BandForm
 from django.core.mail import send_mail
